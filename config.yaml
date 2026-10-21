@@ -1,0 +1,10 @@
+model_name: distilbert-base-uncased
+train_samples: 30000
+test_samples: 3000
+max_length: 128
+batch_size: 32
+learning_rate: 2.0e-5
+epochs: 3
+num_workers: 4
+seed: 42
+output_dir: outputs

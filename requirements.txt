@@ -1,0 +1,8 @@
+torch 
+transformers<5.0
+datasets
+scikit-learn
+seaborn
+matplotlib
+pyyaml
+tqdm
