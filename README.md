@@ -3,6 +3,8 @@
 
 Fine-tunes `distilbert-base-uncased` on a balanced subset of AG News
 (30,000 train / 3,000 test) to classify news into World, Sports, Business and Sci/Tech.
+* Here I have used the  cpu/GPU if avaible, 
+
 
 ## Setup
 
@@ -27,7 +29,7 @@ python train_agnews_mps.py
 
 ```bash
 git init
-git add train_agnews_mps.py config.yaml requirements.txt README.md
+git add .
 git commit -m "DistilBERT AG News classifier"
 git remote add origin https://github.com/your-username/agnews-distilbert.git
 git push -u origin main
